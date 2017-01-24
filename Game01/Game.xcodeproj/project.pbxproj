@@ -13,6 +13,7 @@
 		7A166DAC1E3704D200BE9109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A166DAB1E3704D200BE9109 /* Assets.xcassets */; };
 		7A166DAF1E3704D200BE9109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A166DAD1E3704D200BE9109 /* LaunchScreen.storyboard */; };
 		7A166DB71E37079D00BE9109 /* HelloScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A166DB61E37079D00BE9109 /* HelloScene.swift */; };
+		7A166DB91E37368000BE9109 /* ShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A166DB81E37368000BE9109 /* ShipScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7A166DAE1E3704D200BE9109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A166DB01E3704D200BE9109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A166DB61E37079D00BE9109 /* HelloScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloScene.swift; sourceTree = "<group>"; };
+		7A166DB81E37368000BE9109 /* ShipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShipScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7A166DA41E3704D200BE9109 /* AppDelegate.swift */,
 				7A166DA61E3704D200BE9109 /* ViewController.swift */,
 				7A166DB61E37079D00BE9109 /* HelloScene.swift */,
+				7A166DB81E37368000BE9109 /* ShipScene.swift */,
 				7A166DA81E3704D200BE9109 /* Main.storyboard */,
 				7A166DAB1E3704D200BE9109 /* Assets.xcassets */,
 				7A166DAD1E3704D200BE9109 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A166DB91E37368000BE9109 /* ShipScene.swift in Sources */,
 				7A166DB71E37079D00BE9109 /* HelloScene.swift in Sources */,
 				7A166DA71E3704D200BE9109 /* ViewController.swift in Sources */,
 				7A166DA51E3704D200BE9109 /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				7A166DB51E3704D200BE9109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
