@@ -14,3 +14,9 @@ Swift3编写游戏。
 简书：http://www.jianshu.com/p/c3297f8f8fd3
 
 ![image](https://github.com/flywo/SwiftGame/blob/master/Game02/Game02.gif)
+
+##Game03
+添加动作的操作。
+简书：http://www.jianshu.com/p/eec7df4c8744
+
+![image](https://github.com/flywo/SwiftGame/blob/master/Game03/Game03.gif)
