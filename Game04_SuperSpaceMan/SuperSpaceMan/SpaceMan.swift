@@ -40,7 +40,7 @@ class SpaceMan: SKSpriteNode {
         physicsBody?.allowsRotation = false
         
         physicsBody?.categoryBitMask = CollisionCategoryPlayer
-        physicsBody?.contactTestBitMask = CollisionCategoryPowerUpOrbs
+        physicsBody?.contactTestBitMask = CollisionCategoryPowerUpOrbs | CollisionCategoryBlackHoles
         physicsBody?.collisionBitMask = 0
     }
 }

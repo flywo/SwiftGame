@@ -436,8 +436,8 @@ extension GameScene: SKPhysicsContactDelegate {
          collisionImpulse:撞击力度
          collisionNormal:碰撞方向
          */
-        print("碰撞开始")
         let nodeB = contact.bodyB.node
+        print("name:\(nodeB?.name)")
         if nodeB?.name == "POWER_UP_ORB" {
             
             run(orbPopAction)

@@ -21,3 +21,7 @@ Swift3编写游戏。
 简书：http://www.jianshu.com/p/eec7df4c8744
 
 ![image](https://github.com/flywo/SwiftGame/blob/master/Game03/Game03.gif)
+
+##Game04 可以运行的飞船游戏
+
+![image](https://github.com/flywo/SwiftGame/blob/master/Game04_SuperSpaceMan/Game04.gif)
