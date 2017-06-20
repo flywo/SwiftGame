@@ -26,3 +26,8 @@ Swift3编写游戏。
 一个飞船游戏。
 
 ![image](https://github.com/flywo/SwiftGame/blob/master/Game04_SuperSpaceMan/Game04.gif)
+
+<h1>Game05</h1>
+卡牌游戏中，点击卡牌变大的实现。
+
+![image](https://github.com/flywo/SwiftGame/blob/master/Game05_CardGame/Game05.gif)
