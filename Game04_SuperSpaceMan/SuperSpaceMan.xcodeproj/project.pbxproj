@@ -8,16 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		7A545A6A1EF3D31D00ADB297 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7A545A691EF3D31D00ADB297 /* sprites.atlas */; };
+		7A7F94DE1EF8C0A300691138 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F94DD1EF8C0A300691138 /* MenuScene.swift */; };
+		7A7F94E01EF8C45300691138 /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F94DF1EF8C45300691138 /* SharedConstants.swift */; };
+		7A7F94E21EF8C49900691138 /* SpaceMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F94E11EF8C49900691138 /* SpaceMan.swift */; };
+		7A7F94E41EF8C71B00691138 /* Orb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F94E31EF8C71B00691138 /* Orb.swift */; };
+		7A7F94E61EF8C87E00691138 /* BlackHole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7F94E51EF8C87E00691138 /* BlackHole.swift */; };
 		7A9C12D31EF23B6400D47C4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C12D21EF23B6400D47C4E /* AppDelegate.swift */; };
 		7A9C12D91EF23B6400D47C4E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C12D81EF23B6400D47C4E /* GameScene.swift */; };
 		7A9C12DB1EF23B6400D47C4E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C12DA1EF23B6400D47C4E /* GameViewController.swift */; };
 		7A9C12DE1EF23B6400D47C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C12DC1EF23B6400D47C4E /* Main.storyboard */; };
 		7A9C12E01EF23B6400D47C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C12DF1EF23B6400D47C4E /* Assets.xcassets */; };
 		7A9C12E31EF23B6400D47C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C12E11EF23B6400D47C4E /* LaunchScreen.storyboard */; };
+		7ADFBD461EF7648D005B8F47 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFBD441EF7648D005B8F47 /* MyParticle.sks */; };
+		7ADFBD471EF7648D005B8F47 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFBD451EF7648D005B8F47 /* spark.png */; };
+		7ADFBD491EF7B4A1005B8F47 /* EngineExhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7ADFBD481EF7B4A1005B8F47 /* EngineExhaust.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A545A691EF3D31D00ADB297 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		7A7F94DD1EF8C0A300691138 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		7A7F94DF1EF8C45300691138 /* SharedConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		7A7F94E11EF8C49900691138 /* SpaceMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceMan.swift; sourceTree = "<group>"; };
+		7A7F94E31EF8C71B00691138 /* Orb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orb.swift; sourceTree = "<group>"; };
+		7A7F94E51EF8C87E00691138 /* BlackHole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHole.swift; sourceTree = "<group>"; };
 		7A9C12CF1EF23B6300D47C4E /* SuperSpaceMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSpaceMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9C12D21EF23B6400D47C4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A9C12D81EF23B6400D47C4E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		7A9C12DF1EF23B6400D47C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9C12E21EF23B6400D47C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9C12E41EF23B6400D47C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADFBD441EF7648D005B8F47 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		7ADFBD451EF7648D005B8F47 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		7ADFBD481EF7B4A1005B8F47 /* EngineExhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EngineExhaust.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 			children = (
 				7A9C12D21EF23B6400D47C4E /* AppDelegate.swift */,
 				7A9C12D81EF23B6400D47C4E /* GameScene.swift */,
+				7A7F94DD1EF8C0A300691138 /* MenuScene.swift */,
+				7A7F94DF1EF8C45300691138 /* SharedConstants.swift */,
+				7A7F94E11EF8C49900691138 /* SpaceMan.swift */,
+				7A7F94E31EF8C71B00691138 /* Orb.swift */,
+				7A7F94E51EF8C87E00691138 /* BlackHole.swift */,
+				7ADFBD481EF7B4A1005B8F47 /* EngineExhaust.sks */,
+				7ADFBD441EF7648D005B8F47 /* MyParticle.sks */,
+				7ADFBD451EF7648D005B8F47 /* spark.png */,
 				7A9C12DA1EF23B6400D47C4E /* GameViewController.swift */,
 				7A9C12DC1EF23B6400D47C4E /* Main.storyboard */,
 				7A9C12DF1EF23B6400D47C4E /* Assets.xcassets */,
@@ -131,9 +155,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9C12DE1EF23B6400D47C4E /* Main.storyboard in Resources */,
+				7ADFBD471EF7648D005B8F47 /* spark.png in Resources */,
 				7A9C12E01EF23B6400D47C4E /* Assets.xcassets in Resources */,
 				7A545A6A1EF3D31D00ADB297 /* sprites.atlas in Resources */,
+				7ADFBD491EF7B4A1005B8F47 /* EngineExhaust.sks in Resources */,
 				7A9C12E31EF23B6400D47C4E /* LaunchScreen.storyboard in Resources */,
+				7ADFBD461EF7648D005B8F47 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7F94E41EF8C71B00691138 /* Orb.swift in Sources */,
 				7A9C12D91EF23B6400D47C4E /* GameScene.swift in Sources */,
+				7A7F94E01EF8C45300691138 /* SharedConstants.swift in Sources */,
+				7A7F94DE1EF8C0A300691138 /* MenuScene.swift in Sources */,
+				7A7F94E21EF8C49900691138 /* SpaceMan.swift in Sources */,
 				7A9C12DB1EF23B6400D47C4E /* GameViewController.swift in Sources */,
 				7A9C12D31EF23B6400D47C4E /* AppDelegate.swift in Sources */,
+				7A7F94E61EF8C87E00691138 /* BlackHole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
